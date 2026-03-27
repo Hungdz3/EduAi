@@ -1,0 +1,5 @@
+src/app/api/chat/route.ts(2,10): error TS2305: Module '"@supabase/auth-helpers-nextjs"' has no exported member 'createRouteHandlerClient'.
+src/lib/ai/openrouter.ts(2,10): error TS2724: '"@supabase/auth-helpers-nextjs"' has no exported member named 'createServerComponentClient'. Did you mean 'createServerClient'?
+src/lib/ai/openrouter.ts(44,5): error TS2578: Unused '@ts-expect-error' directive.
+src/lib/auth/rbac.ts(1,10): error TS2724: '"@supabase/auth-helpers-nextjs"' has no exported member named 'createServerComponentClient'. Did you mean 'createServerClient'?
+src/middleware.ts(1,10): error TS2305: Module '"@supabase/auth-helpers-nextjs"' has no exported member 'createMiddlewareClient'.

@@ -70,7 +70,7 @@ export default function RegisterForm() {
             <Input id="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} required className="bg-slate-900 border-white/10 text-white focus-visible:ring-indigo-500 transition-all h-11" />
           </div>
           <Button type="submit" disabled={loading} className="w-full h-11 mt-2 text-base font-semibold bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white border-0 shadow-lg shadow-indigo-500/25 transition-all duration-300 hover:scale-[1.02]">
-            {loading ? 'Đang lý...' : 'Đăng Ký'}
+            {loading ? 'Đang xử lý...' : 'Đăng Ký'}
           </Button>
         </form>
       </CardContent>

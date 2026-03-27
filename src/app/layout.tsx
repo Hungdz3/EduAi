@@ -8,6 +8,11 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 export const metadata: Metadata = {
   title: 'EduAI',
   description: 'Nền tảng AI hỗ trợ giáo viên tiểu học',
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/favicon.ico',
+    apple: '/icon.png',
+  },
 }
 
 export default function RootLayout({

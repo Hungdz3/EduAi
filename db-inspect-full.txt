@@ -1,0 +1,116 @@
+
+Table: grade | Columns: id, name
+
+Table: subject | Columns: id, name
+
+Table: grade_subject | Columns: grade_id, subject_id
+
+Table: qa_bank | Columns: id, grade_id, subject_id, question, answer, keywords
+Data: [
+  {
+    "id": 1,
+    "name": "Lớp 1"
+  },
+  {
+    "id": 2,
+    "name": "Lớp 2"
+  },
+  {
+    "id": 3,
+    "name": "Lớp 3"
+  },
+  {
+    "id": 4,
+    "name": "Lớp 4"
+  },
+  {
+    "id": 5,
+    "name": "Lớp 5"
+  }
+]
+Data: [
+  {
+    "id": 1,
+    "name": "Toán"
+  },
+  {
+    "id": 2,
+    "name": "Tiếng Việt"
+  },
+  {
+    "id": 3,
+    "name": "Đạo đức"
+  },
+  {
+    "id": 4,
+    "name": "Tự nhiên và Xã hội"
+  },
+  {
+    "id": 5,
+    "name": "Tiếng Anh"
+  }
+]
+Data: [
+  {
+    "grade_id": 1,
+    "subject_id": 1
+  },
+  {
+    "grade_id": 1,
+    "subject_id": 2
+  },
+  {
+    "grade_id": 1,
+    "subject_id": 3
+  },
+  {
+    "grade_id": 1,
+    "subject_id": 4
+  },
+  {
+    "grade_id": 2,
+    "subject_id": 1
+  }
+]
+Data: [
+  {
+    "id": 1,
+    "grade_id": 1,
+    "subject_id": 1,
+    "question": "Phép cộng là gì?",
+    "answer": "Phép cộng là gộp các đồ vật lại với nhau để biết tất cả có bao nhiêu.",
+    "keywords": "phép cộng, cộng, cg, phép cg, +"
+  },
+  {
+    "id": 2,
+    "grade_id": 1,
+    "subject_id": 1,
+    "question": "Ví dụ phép cộng?",
+    "answer": "Con giơ:\r\n2 ngón tay\r\nRồi giơ thêm 1 ngón tay\r\nCon đếm tất cả:\r\n1, 2, 3\r\nVậy: \r\n2 + 1 = 3",
+    "keywords": "vd phép cộng, vdu phép cộng, VD phép cộng, Vdu phép cộng, Vd phép cộng"
+  },
+  {
+    "id": 3,
+    "grade_id": 1,
+    "subject_id": 1,
+    "question": "Phép trừ là gì?",
+    "answer": "Phép trừ là bớt đi một phần để biết còn lại bao nhiêu.",
+    "keywords": "trừ, phép trừ, bớt, còn lại, lấy đi"
+  },
+  {
+    "id": 4,
+    "grade_id": 1,
+    "subject_id": 1,
+    "question": "Ví dụ phép trừ?",
+    "answer": "Có 5 cái kẹo, ăn 2 cái.\r\nCòn lại 3 cái.\r\nTa viết: 5 − 2 = 3.",
+    "keywords": "vd phép trừ, vdu phép trừ, VD phép trừ, Vdu phép trừ, Vd phép trừ"
+  },
+  {
+    "id": 5,
+    "grade_id": 1,
+    "subject_id": 1,
+    "question": "Khi chỉ có một đồ vật thì gọi là mấy?",
+    "answer": "Khi chỉ có một đồ vật thì gọi là số một.",
+    "keywords": "một, số 1, đếm"
+  }
+]

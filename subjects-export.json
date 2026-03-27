@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Toán"
+  },
+  {
+    "id": 2,
+    "name": "Tiếng Việt"
+  },
+  {
+    "id": 3,
+    "name": "Đạo đức"
+  },
+  {
+    "id": 4,
+    "name": "Tự nhiên và Xã hội"
+  },
+  {
+    "id": 5,
+    "name": "Tiếng Anh"
+  },
+  {
+    "id": 6,
+    "name": "Công nghệ"
+  },
+  {
+    "id": 7,
+    "name": "Lịch sử và Địa lý"
+  },
+  {
+    "id": 8,
+    "name": "Khoa học"
+  }
+]

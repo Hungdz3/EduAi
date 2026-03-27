@@ -14,7 +14,7 @@ CREATE TABLE profiles (
 CREATE OR REPLACE FUNCTION handle_new_user()
 RETURNS TRIGGER AS $$
 BEGIN
-  INSERT INTO profiles (id, full_name, role)
+  INSERT INTO public.profiles (id, full_name, role)
   VALUES (
     NEW.id,
     NEW.raw_user_meta_data->>'full_name',
